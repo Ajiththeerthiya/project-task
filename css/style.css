@@ -1,0 +1,51 @@
+.cls1 h2{
+    margin-top: 55%;
+    margin-left: 81px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.card{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.cls3{
+    height: 757px;
+    background: url("/images/light-bulb-5352822_1920.jpg")no-repeat center ;
+    background-size: cover; 
+    opacity: 0.9;  
+}
+.one{
+    float: left;
+}
+.two{
+    float: right;
+}
+.two a{
+    margin-left: -79%;
+}
+.one p a{
+    text-decoration: none;
+}
+@media(max-width:411px){
+    .card{
+        margin-left: 20px;
+    }
+    .cls1 h1{
+          margin-left: 20px;
+    }
+    .cls1 a{
+        margin-left: 20px;
+    }
+    .cls2 .two a{
+        margin-left: -28%;
+    }
+}
+@media(max-width:360px){
+    .cls1{
+        margin-left: -22px;
+    }
+    .cls2 .two p{
+        margin-left: 0%;
+    }
+}
